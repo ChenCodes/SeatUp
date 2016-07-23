@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gRz-Ea-inS">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="igx-wk-0Kj">
+            <objects>
+                <viewController id="gRz-Ea-inS" customClass="ViewController" customModule="SeatUp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8GA-gU-dwJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="xmQ-0Z-uzy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6np-s0-HJO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lod-uM-SJ0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="launchBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Nkq-Ue-ccP">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIG-rd-aZc">
+                                        <rect key="frame" x="0.0" y="415" width="375" height="48"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yu0-C2-BCd">
+                                                <rect key="frame" x="0.0" y="8" width="375" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="gRz-Ea-inS" id="RW8-ay-rQl"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.96078431372549022" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z2f-gj-4r5">
+                                        <rect key="frame" x="0.0" y="465" width="375" height="46"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your height: 5'11" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eRE-eX-QDl">
+                                                <rect key="frame" x="0.0" y="8" width="375" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="gRz-Ea-inS" id="JrH-Ev-456"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.94509803921568625" green="0.83529411764705885" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sXk-cc-AbN">
+                                        <rect key="frame" x="0.0" y="513" width="375" height="46"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your group (if applicable)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9qI-Jh-z2X">
+                                                <rect key="frame" x="0.0" y="8" width="375" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="gRz-Ea-inS" id="Bxx-AC-412"/>
+                                                </connections>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.92549019607843142" green="0.79607843137254897" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTF-F4-LM9">
+                                        <rect key="frame" x="8" y="621" width="359" height="38"/>
+                                        <color key="backgroundColor" red="0.32549019607843138" green="0.78431372549019607" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                        <state key="normal" title="Join">
+                                            <color key="titleColor" red="0.99577277898788452" green="0.9922446608543396" blue="0.99200206995010376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="gRz-Ea-inS" eventType="touchUpInside" id="c73-Id-ldH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="groupField" destination="9qI-Jh-z2X" id="PhA-Lb-c2n"/>
+                        <outlet property="heightField" destination="eRE-eX-QDl" id="21u-1F-Ivw"/>
+                        <outlet property="nameField" destination="Yu0-C2-BCd" id="u5g-bS-oHd"/>
+                        <outlet property="scrollView" destination="lod-uM-SJ0" id="GW1-0h-R9F"/>
+                        <segue destination="hw0-gY-zF2" kind="show" identifier="showMainPage" id="HFr-tN-muO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jCw-7v-CXD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="603.5" y="-1062.5"/>
+        </scene>
+        <!--SeatUp-->
+        <scene sceneID="Q8H-IT-RY4">
+            <objects>
+                <viewController id="hw0-gY-zF2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ond-us-6kR"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hvc-qo-SMV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ViX-ji-tff">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SeatUp" id="sGm-eO-hBS"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aSW-zh-Y6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1225.5" y="-1062.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="g80-Cc-qRC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="kKB-Vx-6AM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sMi-3Y-GKi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hw0-gY-zF2" kind="relationship" relationship="rootViewController" id="qa6-Oy-95U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8KS-qD-3w0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014.5" y="-1062.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchBackground" width="640" height="1136"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="qa6-Oy-95U"/>
+    </inferredMetricsTieBreakers>
+</document>
