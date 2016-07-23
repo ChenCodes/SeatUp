@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FDD54307E7D750B800A7588 /* Pods_SeatUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 881EF024439B458420BE169D /* Pods_SeatUp.framework */; };
 		43CC7A621D4403E900ED38A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC7A611D4403E900ED38A6 /* AppDelegate.swift */; };
 		43CC7A641D4403E900ED38A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC7A631D4403E900ED38A6 /* ViewController.swift */; };
 		43CC7A671D4403E900ED38A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CC7A651D4403E900ED38A6 /* Main.storyboard */; };
@@ -14,7 +15,12 @@
 		43CC7A6C1D4403E900ED38A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CC7A6A1D4403E900ED38A6 /* LaunchScreen.storyboard */; };
 		43CC7A771D4403E900ED38A6 /* SeatUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC7A761D4403E900ED38A6 /* SeatUpTests.swift */; };
 		43CC7A821D4403E900ED38A6 /* SeatUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC7A811D4403E900ED38A6 /* SeatUpUITests.swift */; };
+
 		43E10C611D44221600331402 /* findSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E10C601D44221600331402 /* findSpotViewController.swift */; };
+
+		B06B500EAF891B9846DEC920 /* Pods_SeatUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B09CCA8E6DFB1B3FE77129 /* Pods_SeatUpUITests.framework */; };
+		F6440A10A4EA56226BBAD773 /* Pods_SeatUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A753DBECA6974731C4F39D3 /* Pods_SeatUpTests.framework */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +54,19 @@
 		43CC7A7D1D4403E900ED38A6 /* SeatUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CC7A811D4403E900ED38A6 /* SeatUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatUpUITests.swift; sourceTree = "<group>"; };
 		43CC7A831D4403E900ED38A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		43E10C601D44221600331402 /* findSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findSpotViewController.swift; sourceTree = "<group>"; };
+
+		6A753DBECA6974731C4F39D3 /* Pods_SeatUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		881EF024439B458420BE169D /* Pods_SeatUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B7E8D4C95307A6EF06A741 /* Pods-SeatUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUp/Pods-SeatUp.release.xcconfig"; sourceTree = "<group>"; };
+		9A3CF28E4D274AE29800E6F6 /* Pods-SeatUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUpTests/Pods-SeatUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FD7194A38681660B977CDC /* Pods-SeatUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUp/Pods-SeatUp.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B09CCA8E6DFB1B3FE77129 /* Pods_SeatUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36B856C42C88FF2B1EF2FE5 /* Pods-SeatUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUpTests/Pods-SeatUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		D9F3625A01E8FB0DB9DD5E89 /* Pods-SeatUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUpUITests/Pods-SeatUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B57E28F8CAC67AA7312025 /* Pods-SeatUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUpUITests/Pods-SeatUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FDD54307E7D750B800A7588 /* Pods_SeatUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6440A10A4EA56226BBAD773 /* Pods_SeatUpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06B500EAF891B9846DEC920 /* Pods_SeatUpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				43CC7A751D4403E900ED38A6 /* SeatUpTests */,
 				43CC7A801D4403E900ED38A6 /* SeatUpUITests */,
 				43CC7A5F1D4403E800ED38A6 /* Products */,
+				9A2F22A40128F03F6D16D1A3 /* Pods */,
+				F689C3D254700EEA75B59968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +151,29 @@
 			path = SeatUpUITests;
 			sourceTree = "<group>";
 		};
+		9A2F22A40128F03F6D16D1A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4FD7194A38681660B977CDC /* Pods-SeatUp.debug.xcconfig */,
+				96B7E8D4C95307A6EF06A741 /* Pods-SeatUp.release.xcconfig */,
+				9A3CF28E4D274AE29800E6F6 /* Pods-SeatUpTests.debug.xcconfig */,
+				B36B856C42C88FF2B1EF2FE5 /* Pods-SeatUpTests.release.xcconfig */,
+				D9F3625A01E8FB0DB9DD5E89 /* Pods-SeatUpUITests.debug.xcconfig */,
+				F2B57E28F8CAC67AA7312025 /* Pods-SeatUpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F689C3D254700EEA75B59968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				881EF024439B458420BE169D /* Pods_SeatUp.framework */,
+				6A753DBECA6974731C4F39D3 /* Pods_SeatUpTests.framework */,
+				A5B09CCA8E6DFB1B3FE77129 /* Pods_SeatUpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43CC7A861D4403E900ED38A6 /* Build configuration list for PBXNativeTarget "SeatUp" */;
 			buildPhases = (
+				38C0621E8451D178E83D469E /* [CP] Check Pods Manifest.lock */,
 				43CC7A5A1D4403E800ED38A6 /* Sources */,
 				43CC7A5B1D4403E800ED38A6 /* Frameworks */,
 				43CC7A5C1D4403E800ED38A6 /* Resources */,
+				E14CDCC1B69189EE3A03D635 /* [CP] Embed Pods Frameworks */,
+				CF70EC7A8BD0E7294ABD8A34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43CC7A891D4403E900ED38A6 /* Build configuration list for PBXNativeTarget "SeatUpTests" */;
 			buildPhases = (
+				D135D51122EF2A09DFEF1CAC /* [CP] Check Pods Manifest.lock */,
 				43CC7A6E1D4403E900ED38A6 /* Sources */,
 				43CC7A6F1D4403E900ED38A6 /* Frameworks */,
 				43CC7A701D4403E900ED38A6 /* Resources */,
+				95EF7110295200799B170CE4 /* [CP] Embed Pods Frameworks */,
+				073A2635D3B2EC652F871900 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43CC7A8C1D4403E900ED38A6 /* Build configuration list for PBXNativeTarget "SeatUpUITests" */;
 			buildPhases = (
+				38524AAA23663747A8D25FFC /* [CP] Check Pods Manifest.lock */,
 				43CC7A791D4403E900ED38A6 /* Sources */,
 				43CC7A7A1D4403E900ED38A6 /* Frameworks */,
 				43CC7A7B1D4403E900ED38A6 /* Resources */,
+				457EC07EB6529607BB6248C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +307,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073A2635D3B2EC652F871900 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatUpTests/Pods-SeatUpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38524AAA23663747A8D25FFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38C0621E8451D178E83D469E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		457EC07EB6529607BB6248C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatUpUITests/Pods-SeatUpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95EF7110295200799B170CE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatUpTests/Pods-SeatUpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF70EC7A8BD0E7294ABD8A34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatUp/Pods-SeatUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D135D51122EF2A09DFEF1CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E14CDCC1B69189EE3A03D635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeatUp/Pods-SeatUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43CC7A5A1D4403E800ED38A6 /* Sources */ = {
@@ -401,6 +578,7 @@
 		};
 		43CC7A871D4403E900ED38A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FD7194A38681660B977CDC /* Pods-SeatUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SeatUp/Info.plist;
@@ -412,6 +590,7 @@
 		};
 		43CC7A881D4403E900ED38A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B7E8D4C95307A6EF06A741 /* Pods-SeatUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SeatUp/Info.plist;
@@ -423,6 +602,7 @@
 		};
 		43CC7A8A1D4403E900ED38A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3CF28E4D274AE29800E6F6 /* Pods-SeatUpTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SeatUpTests/Info.plist;
@@ -435,6 +615,7 @@
 		};
 		43CC7A8B1D4403E900ED38A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36B856C42C88FF2B1EF2FE5 /* Pods-SeatUpTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SeatUpTests/Info.plist;
@@ -447,6 +628,7 @@
 		};
 		43CC7A8D1D4403E900ED38A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F3625A01E8FB0DB9DD5E89 /* Pods-SeatUpUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SeatUpUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -458,6 +640,7 @@
 		};
 		43CC7A8E1D4403E900ED38A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B57E28F8CAC67AA7312025 /* Pods-SeatUpUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SeatUpUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -1,0 +1,6 @@
+framework module Pods_SeatUpTests {
+  umbrella header "Pods-SeatUpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
