@@ -5,6 +5,10 @@
 
 ####App description: SeatUp is an app that helps organize concertgoers by their height and group status so that there would be minimal blocking of persons that are shorter. 
 
+####App screenshots:
+![Main page / Home page](https://github.com/ChenCodes/SeatUp/blob/master/githubScreenshot.png)
+
+
 ####How does the app work? - (technical implementations discussed)
 1. After entering their name, height, and group status, the user then will be shown a page where there is a spinning icon. They are prompted to start spinning until the icon goes away and is replaced with a thumbs up button. This means that they are facing the right direction.
 2. Right below the icon there is a label that shows how far the user is from the source destination. This source destination is calculated in the backend. The entire concert-field is divided up into a 10 x 10 grid. The columns are indexed from 0 to 9, and the rows are indexed from row 9 through 9 as well. In the implementation of the app, we were aware of the fact that groups of concertgoers would rather not be split apart by height / the majority of people who went to such concerts were part of a group. Thus, we set aside 80% of the concertgrounds to be space reserved for groups. The remaining 20% were put in columns indexed 0 and index 9. 
