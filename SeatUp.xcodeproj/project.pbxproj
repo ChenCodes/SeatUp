@@ -15,12 +15,10 @@
 		43CC7A6C1D4403E900ED38A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CC7A6A1D4403E900ED38A6 /* LaunchScreen.storyboard */; };
 		43CC7A771D4403E900ED38A6 /* SeatUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC7A761D4403E900ED38A6 /* SeatUpTests.swift */; };
 		43CC7A821D4403E900ED38A6 /* SeatUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC7A811D4403E900ED38A6 /* SeatUpUITests.swift */; };
-
 		43E10C611D44221600331402 /* findSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E10C601D44221600331402 /* findSpotViewController.swift */; };
-
+		43E10C651D443AB400331402 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E10C641D443AB400331402 /* GoogleService-Info.plist */; };
 		B06B500EAF891B9846DEC920 /* Pods_SeatUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B09CCA8E6DFB1B3FE77129 /* Pods_SeatUpUITests.framework */; };
 		F6440A10A4EA56226BBAD773 /* Pods_SeatUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A753DBECA6974731C4F39D3 /* Pods_SeatUpTests.framework */; };
-
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +52,8 @@
 		43CC7A7D1D4403E900ED38A6 /* SeatUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeatUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CC7A811D4403E900ED38A6 /* SeatUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatUpUITests.swift; sourceTree = "<group>"; };
 		43CC7A831D4403E900ED38A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
 		43E10C601D44221600331402 /* findSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = findSpotViewController.swift; sourceTree = "<group>"; };
-
+		43E10C641D443AB400331402 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6A753DBECA6974731C4F39D3 /* Pods_SeatUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		881EF024439B458420BE169D /* Pods_SeatUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeatUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B7E8D4C95307A6EF06A741 /* Pods-SeatUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUp/Pods-SeatUp.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +63,6 @@
 		B36B856C42C88FF2B1EF2FE5 /* Pods-SeatUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUpTests/Pods-SeatUpTests.release.xcconfig"; sourceTree = "<group>"; };
 		D9F3625A01E8FB0DB9DD5E89 /* Pods-SeatUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUpUITests/Pods-SeatUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2B57E28F8CAC67AA7312025 /* Pods-SeatUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeatUpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeatUpUITests/Pods-SeatUpUITests.release.xcconfig"; sourceTree = "<group>"; };
-
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +125,7 @@
 				43CC7A651D4403E900ED38A6 /* Main.storyboard */,
 				43CC7A6A1D4403E900ED38A6 /* LaunchScreen.storyboard */,
 				43CC7A6D1D4403E900ED38A6 /* Info.plist */,
+				43E10C641D443AB400331402 /* GoogleService-Info.plist */,
 			);
 			path = SeatUp;
 			sourceTree = "<group>";
@@ -287,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43CC7A6C1D4403E900ED38A6 /* LaunchScreen.storyboard in Resources */,
+				43E10C651D443AB400331402 /* GoogleService-Info.plist in Resources */,
 				43CC7A691D4403E900ED38A6 /* Assets.xcassets in Resources */,
 				43CC7A671D4403E900ED38A6 /* Main.storyboard in Resources */,
 			);
@@ -581,6 +579,7 @@
 			baseConfigurationReference = A4FD7194A38681660B977CDC /* Pods-SeatUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = SeatUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SeatUp;
@@ -593,6 +592,7 @@
 			baseConfigurationReference = 96B7E8D4C95307A6EF06A741 /* Pods-SeatUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = SeatUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SeatUp;

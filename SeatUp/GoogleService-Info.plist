@@ -7,21 +7,19 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>486456254400-9a0oa81mi65sjcq3ag5ht4f9hcr0jqfd.apps.googleusercontent.com</string>
+	<string>16688363176-74cojs6jhkivsgmv713umhuod1nb3i90.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.486456254400-9a0oa81mi65sjcq3ag5ht4f9hcr0jqfd</string>
-	<key>API_KEY</key>
-	<string>AIzaSyC_XgQqrJ9fNx547DBLl_e4gqgw0Zqsm4c</string>
+	<string>com.googleusercontent.apps.16688363176-74cojs6jhkivsgmv713umhuod1nb3i90</string>
 	<key>GCM_SENDER_ID</key>
-	<string>486456254400</string>
+	<string>16688363176</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.example.SeatUp</string>
 	<key>PROJECT_ID</key>
-	<string>seatup-a01c6</string>
+	<string>seatup-b6db8</string>
 	<key>STORAGE_BUCKET</key>
-	<string>seatup-a01c6.appspot.com</string>
+	<string>seatup-b6db8.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +31,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:486456254400:ios:6e6e76a617b6a829</string>
+	<string>1:16688363176:ios:6e6e76a617b6a829</string>
 	<key>DATABASE_URL</key>
-	<string>https://seatup-a01c6.firebaseio.com</string>
+	<string>https://seatup-b6db8.firebaseio.com</string>
 </dict>
 </plist>

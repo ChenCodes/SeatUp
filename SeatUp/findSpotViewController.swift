@@ -18,11 +18,9 @@ class findSpotViewController: UIViewController {
     override func viewDidLoad() {
         print("came into here")
         super.viewDidLoad()
-        displayCorrectDirection("left")
+        displayCorrectDirection("up")
     }
-    
-    
-    
+
     
     func displayCorrectDirection(directionString: String) {
         if directionString == "left" {
