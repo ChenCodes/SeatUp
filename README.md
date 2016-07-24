@@ -19,7 +19,8 @@ SeatUp is an app that helps organize concertgoers by their height and group stat
 4. As for the concertgoers that were present in groups, we would have a queue of lists of person objects rather than individual person objects (which were how they were implemented in the single-person queues. Each list would be have the average height calculated, and so if overall a list had a higher average height, then it would go after a list that had a lower average height. This was to ensure that the heights of individuals would be sorted as much as possible across both rows and columns.
 5. After the user starts walking toward their designated spot on the concertfield, the distance will start to decrease. Once the distance becomes less than 5m, this means that the user has arrived at their designated location. 
 
-####Appstore status: Not available on Appstore. As we didn't have enough time to finish the project, we may possibly release it on the Appstore in the future. For now, it will stay here as open source code. 
+####Appstore status: 
+Not available on Appstore. As we didn't have enough time to finish the project, we may possibly release it on the Appstore in the future. For now, it will stay here as open source code. 
 
 ####Collaborators:
 I worked with a fellow senior David Sohng - dsohng(Github) on this project. 
