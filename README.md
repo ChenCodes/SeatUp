@@ -1,7 +1,7 @@
 # SeatUp
 ###Outsideland Hacks - 23 July 2016
 
-####Hackathon prompt: Build something that enhances the experience for Artists and/or Fans at Outside Lands 2016 (iOS, Android, Web, or anything else).
+####Hackathon prompt: Build something that enhances the experience for artists and/or fans at Outside Lands 2016 (iOS, Android, Web, or anything else).
 
 ####App description: SeatUp is an app that helps organize concertgoers by their height and group status so that there would be minimal blocking of persons that are shorter. 
 
@@ -20,7 +20,7 @@
 
 
 
-
+Appstore status: Not available on Appstore. As we didn't have enough time to finish the project, we may possibly release it on the appstore in the future. For now, it will be here for everyone to see exactly how we implemented this app 
 
 
 #####Collaborators:
