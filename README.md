@@ -2,6 +2,8 @@
 
 ####Hackathon prompt: Build something that enhances the experience for artists and/or fans at Outside Lands 2016 (iOS, Android, Web, or anything else).
 
+####Promotional description: Tired of staring at a person’s back throughout an entire concert, breathing in the sweaty fumes? Embarrassed to tap them on the shoulder and asking them to step aside? Well, now you can cut your vertically challenged problems down to size with SeatUp!
+
 ####App description: SeatUp is an app that helps organize concertgoers by their height and group status so that there would be minimal blocking of persons that are shorter. 
 
 ####App screenshots:
