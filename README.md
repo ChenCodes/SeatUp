@@ -24,7 +24,7 @@ SeatUp is an app that helps organize concertgoers by their height and group stat
 ####Collaborators:
 I worked with a fellow senior David Sohng - dsohng(Github) on this project. 
 
-How to run this repo:
+####How to run this repo:
 
 1. Download the code or clone the repository.
 1. Open the project in Xcode.
