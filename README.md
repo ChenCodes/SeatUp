@@ -1,6 +1,4 @@
-# SeatUp
-
-###Outsideland Hacks - 23 July 2016
+# SeatUp - Outsideland Hacks - 23 July 2016
 
 ####Hackathon prompt: Build something that enhances the experience for artists and/or fans at Outside Lands 2016 (iOS, Android, Web, or anything else).
 
