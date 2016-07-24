@@ -30,7 +30,12 @@ How to run this repo:
 1. Open the project in Xcode.
 1. Click the run button.
 
-Contact:
+
+####Additional resources:
+Here is the google doc that we worked on prior to the event:
+https://docs.google.com/document/d/12SmWBMkKA2lYA6zPV_eDk0Fcs91yUJlfCHXOCzx_yw0/edit?ts=5792a9e6
+
+####Contact:
 Feel free to add me on Facebook if you have any questions about this project! - https://www.facebook.com/jack.chen.940
 
 
