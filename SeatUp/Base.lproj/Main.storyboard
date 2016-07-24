@@ -107,31 +107,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5QV-nu-h63">
-                                <rect key="frame" x="0.0" y="99" width="375" height="306"/>
+                                <rect key="frame" x="0.0" y="118" width="375" height="306"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Walk in the direction of the arrows." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="h56-FU-Y17">
-                                        <rect key="frame" x="67" y="44" width="240" height="77"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Spin until the thumbs up shows up." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="h56-FU-Y17">
+                                        <rect key="frame" x="67" y="21" width="240" height="77"/>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" red="0.1154226482056086" green="0.26929855203442388" blue="0.34982638888888884" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z27-E4-Sc9">
-                                        <rect key="frame" x="115" y="139" width="144" height="134"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spin" translatesAutoresizingMaskIntoConstraints="NO" id="Z27-E4-Sc9">
+                                        <rect key="frame" x="108" y="116" width="159" height="150"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98431372549019602" green="0.99215686274509807" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83Y-om-7c1">
-                                <rect key="frame" x="0.0" y="599" width="193" height="68"/>
+                                <rect key="frame" x="0.0" y="599" width="199" height="68"/>
                                 <color key="backgroundColor" red="0.27450980392156865" green="0.73725490196078436" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="23"/>
                                 <state key="normal" title="Start">
                                     <color key="titleColor" red="0.99577277898788452" green="0.9922446608543396" blue="0.99200206995010376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="startPressed:" destination="hw0-gY-zF2" eventType="touchUpInside" id="5Pb-kC-MrV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LmH-95-FJD">
-                                <rect key="frame" x="193" y="599" width="182" height="68"/>
+                                <rect key="frame" x="196" y="599" width="179" height="68"/>
                                 <color key="backgroundColor" red="0.80392156862745101" green="0.0" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                 <state key="normal" title="Done">
@@ -154,52 +157,55 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.16470588235294117" green="0.70980392156862748" blue="0.80392156862745101" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koy-h5-SNo">
-                                <rect key="frame" x="299" y="28" width="76" height="64"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Huh">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zx2-M1-b6I" userLabel="Underscore 1">
-                                <rect key="frame" x="34" y="415" width="100" height="2"/>
+                                <rect key="frame" x="34" y="434" width="100" height="2"/>
                                 <color key="backgroundColor" red="0.78324258207070707" green="0.78324258207070707" blue="0.78324258207070707" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZT-yf-OQy" userLabel="Underscore 1">
-                                <rect key="frame" x="241" y="415" width="100" height="2"/>
+                                <rect key="frame" x="241" y="434" width="100" height="2"/>
                                 <color key="backgroundColor" red="0.78324258207070707" green="0.78324258207070707" blue="0.78324258207070707" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHh-pc-dG0">
-                                <rect key="frame" x="160" y="405" width="55" height="21"/>
+                                <rect key="frame" x="160" y="424" width="55" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
                                 <color key="textColor" red="0.23137254901960785" green="0.67843137254901964" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Row number:" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAC-6y-Vb2">
-                                <rect key="frame" x="92" y="433" width="101" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.62425031565656564" green="0.62425031565656564" blue="0.62425031565656564" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9T-Wv-kQS">
+                                <rect key="frame" x="53" y="453" width="140" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" red="0.61022332702020199" green="0.61022332702020199" blue="0.61022332702020199" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1/10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IE1-1B-Apd">
-                                <rect key="frame" x="201" y="434" width="84" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0m" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3EH-pO-sFU">
+                                <rect key="frame" x="193" y="454" width="92" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.74901960784313726" green="0.0" blue="0.22352941176470589" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current row number:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcg-1z-EDj">
-                                <rect key="frame" x="34" y="462" width="159" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.59730113636363635" green="0.59730113636363635" blue="0.59730113636363635" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You're going in the                direction!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJh-Dy-Z7m">
+                                <rect key="frame" x="34" y="482" width="307" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.64526120580808088" green="0.64526120580808088" blue="0.64526120580808088" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4/10" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uk5-ep-bdG">
-                                <rect key="frame" x="201" y="462" width="84" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.68627450980392157" green="0.0" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zL5-Hr-ech">
+                                <rect key="frame" x="196" y="482" width="53" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koy-h5-SNo">
+                                <rect key="frame" x="299" y="28" width="76" height="64"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="savePressed:" destination="hw0-gY-zF2" eventType="touchUpInside" id="Kjy-gn-nF5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98039215686274506" green="0.99215686274509807" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -207,6 +213,9 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="animationsImage" destination="Z27-E4-Sc9" id="mF4-7f-YIZ"/>
+                        <outlet property="correctDirectionLabel" destination="tJh-Dy-Z7m" id="4Tr-zX-6UW"/>
+                        <outlet property="distanceLabel" destination="3EH-pO-sFU" id="lVd-Y0-tcY"/>
+                        <outlet property="rightDirection" destination="zL5-Hr-ech" id="YeQ-5c-9FZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aSW-zh-Y6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -216,5 +225,6 @@
     </scenes>
     <resources>
         <image name="launchBackground" width="640" height="1136"/>
+        <image name="spin" width="500" height="500"/>
     </resources>
 </document>
