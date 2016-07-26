@@ -31,7 +31,6 @@ I worked with a fellow senior David Sohng - dsohng(Github) on this project.
 1. Open the project in Xcode.
 1. Click the run button.
 
-
 ####Additional resources:
 Here is the google doc that we worked on prior to the event:
 https://docs.google.com/document/d/12SmWBMkKA2lYA6zPV_eDk0Fcs91yUJlfCHXOCzx_yw0/edit?ts=5792a9e6
